@@ -76,6 +76,7 @@ function addMovieHandler() {
   console.log(movies);
   toggleMovieModal();
   clearMovieInputs();
+  renderMovieElement(newMovie.title, newMovie.image, newMovie.rating);
   updateUI();
 }
 
